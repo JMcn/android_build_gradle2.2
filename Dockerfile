@@ -10,7 +10,7 @@ ENV GRADLE_HOME /usr/local/gradle-2.2
 ENV PATH ${GRADLE_HOME}/bin:$PATH
 
 # Download and untar SDK
-ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz
+ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
 RUN curl -L ${ANDROID_SDK_URL} | tar xz -C /usr/local
 ENV ANDROID_HOME /usr/local/android-sdk-linux
 ENV ANDROID_SDK ${SDK_HOME}/android-sdk-linux
