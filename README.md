@@ -5,7 +5,7 @@ This is a Dockerfile for Android build projects.
 * OpenJDK 8
 * Gradle 2.2
 * platform-tools，build-tools
-* Android SDK (android-19、21、22、23)
+* Android SDK (android-19、21、22、23、24)
 * Android Support Libraries
 
 ## How to use
